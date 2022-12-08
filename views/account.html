@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/account.css">
+    <title>Red Eye Login</title>
+</head>
+<body>
+      <div class="container">
+        <a href="/home">
+          <label style="font-size:16px; color:wheat;">< Back</label>
+        </a>
+        <h1>Personal Information</h1>
+        <form>
+          <div class="form-control">
+            <h5>Full Name</h5>
+            <input id="fullName" type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-control">
+            <h5>Gender</h5>
+            <input id="gender" type="text" placeholder="Gender" required>
+          </div>
+          <div class="form-control">
+            <h5>Birthday</h5>
+            <input id="birthday" type="text" placeholder="Birthday" required>
+          </div>
+          <div class="form-control">
+            <h5>Email</h5>
+            <input id="emailUser" type="text" placeholder="Email" required>
+          </div>
+          <button onclick="saveButton()" class="ripple btn">Save</button>
+        </form>
+      </div>
+    <div class="loader"></div>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/account.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/indexstyle.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="nav">
+        <div class="container">
+          <h1 class="logo"><a href="/home">RED EYE</a></h1>
+          <ul>
+            <li><a href="/home" class="current">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Live</a></li>
+            <li><a href="/account">Account</a></li>
+          </ul>
+          <form id="form" href="#main">
+            <input type="text" id="search" class="search" placeholder="Search">
+          </form>
+        </div>
+      </nav>
+    <div class="slider-container">
+        <div class="left-slide">
+          <div class="autoeffect">
+            <h1>Welcome Back,</h1>
+            <h2 id="usersName" style="font-size:45px; margin-bottom:40%; margin-top:-2%">Johnny</h2>
+          </div>
+        </div>
+        <div class="right-slide">
+          <div class="recommended">
+            <h2>Hand-picks of the Day</h2>
+          </div>
+          <div class="recommended-movies">
+           <a href="/video?movieID=1"><img src="img/dune-movie.jpg" width="200vh" class="recommended-img" id="recimg1" alt="Dune"></a>
+           <a href="/video?movieID=2"><img src="img/matrix-movie.jpg" width="200vh" class="recommended-img" id="recimg2" alt="Dune"></a>
+           <a href="/video?movieID=3"><img src="img/spiderman-movie.jpg" width="200vh" class="recommended-img" id="recimg3" alt="Dune"></a>
+          </div>
+        </div>
+      </div>
+    <section id="movies">
+      <h1 id="moviesSectionTitle" style="margin-left: 9%; margin-top:-4%; font-size:30px;">Latest Releases</h1>
+      <main id="main"></main>
+      <script src="js/scrollreveal.min.js"></script>
+      <script src="js/script.js"></script>
+    </section>
+  </body>
+</html>

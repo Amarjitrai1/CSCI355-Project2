@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/loginstyle.css">
+      <title>Red Eye Login</title>
+  </head>
+  <body>
+      <div class="login-container">
+      <img src="/img/red-eye-logo.png" width="150vh" id="redeyeLogo" style="transform: rotate(-7deg) translatey(35%);margin-left: 100px; z-index: 1;" alt="Red Eye">
+        <div class="container" id="loginBox">
+          <h1>Welcome, Sign In</h1>
+          <form>
+            <div class="form-control">
+              <input type="text" placeholder="Email" required>
+            </div>
+
+            <div class="form-control">
+              <input type="password" placeholder="Password" required>
+            </div>
+              <button onclick="login()" class="btn ripple">Login</button>
+            <p class="text">Don't have an account? <a href="#">Register</a></p>
+          </form>
+        </div>
+      </div>
+      <script src="js/scrollreveal.min.js"></script>
+      <script src="js/login.js"></script>
+  </body>
+  <footer style="font-size:14px; color:gray;">
+  <p>Developers: Amarjit Singh, Mohak Mankani, Kevin Ren, & Daniel Davidov</p>
+</footer>
+  </html>
